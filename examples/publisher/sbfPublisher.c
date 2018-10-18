@@ -132,7 +132,7 @@ static void sendForeverNanosleep (sbfPub pub,
         *payload = sbfPerfCounter_get ();
         sbfPub_send (pub, payload, size);
         gPublished++;
-        nanosleep(&time1, &time2);
+        //nanosleep(&time1, &time2);
     }
 }
 
